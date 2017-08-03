@@ -1,0 +1,8 @@
+hash: dbd009865a641d8cd8e267a21414a63db3cb59489a0e48b45e8c0c789f59c3a0
+updated: 2017-02-06T05:39:43.255553569Z
+imports:
+- name: github.com/BurntSushi/toml
+  version: 99064174e013895bbd9b025c31100bd1d9b590ca
+- name: github.com/jarcoal/httpmock
+  version: 145b10d659265440f062c31ea15326166bae56ee
+testImports: []

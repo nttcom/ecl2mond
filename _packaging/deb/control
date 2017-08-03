@@ -1,0 +1,15 @@
+Source: {{name}}
+Section: unknown
+Priority: optional
+Maintainer: {{maintainer_name}} <{{maintainer_email}}>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: {{version}}
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/deb.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/deb.git;a=summary
+
+Package: {{name}}
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <ECL2.0 Monitoring Custom meter agent.>
+ <insert long description, indented with spaces>

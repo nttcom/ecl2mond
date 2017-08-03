@@ -1,0 +1,4 @@
+package: ecl2mond
+import:
+  - package: github.com/BurntSushi/toml
+  - package: github.com/jarcoal/httpmock

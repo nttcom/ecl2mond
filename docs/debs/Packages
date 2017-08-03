@@ -1,0 +1,34 @@
+Package: ecl2mond
+Architecture: i386
+Version: 1.0.0
+Priority: optional
+Section: unknown
+Maintainer: NTT Communications corporation <monitoring@ecl.ntt.com}>
+Installed-Size: 3443
+Filename: ./ecl2mond_1.0.0_i386.deb
+Size: 1169212
+MD5sum: 700661e2f7f386416aa19ab1b61b7d93
+SHA1: f8817ad4f83171efef36acbd7d297f318862c598
+SHA256: db33b4696f1d45738488f28bab759ae9735650473ca7ab3869b32e86feebf58a
+SHA512: 65a8e92c8e2a2260810a127d52c48a225f7bf57b784ae0f85436ab2deaf409165d94a7eb9e5f4261cbb12abd2ced1019dd8d39fb1e78ea0d3a6913e57f96743e
+Homepage: <insert the upstream URL, if relevant>
+Description: <ECL2.0 Monitoring Custom meter agent.>
+ <insert long description, indented with spaces>
+
+Package: ecl2mond
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: unknown
+Maintainer: NTT Communications corporation <monitoring@ecl.ntt.com}>
+Installed-Size: 4210
+Filename: ./ecl2mond_1.0.0_amd64.deb
+Size: 1243902
+MD5sum: e4a2ca6607133934be2953a1890fe5a7
+SHA1: 15f9224acc6ec4c6395ad916473bb7c5348e9786
+SHA256: 931f4dbbbd15368bf93092819e22bdec5b107c1d87d65bc86550f4a7d689134a
+SHA512: 50a5691ef24ec2b38a9ef87356a2aa8768840c102a33829cc32a2d45450c8a4985bf3d1e3d891c35c08fdd99bf66189df51293186e77c317c0b880ccec9177e1
+Homepage: <insert the upstream URL, if relevant>
+Description: <ECL2.0 Monitoring Custom meter agent.>
+ <insert long description, indented with spaces>
+

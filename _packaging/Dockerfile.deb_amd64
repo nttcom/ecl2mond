@@ -1,0 +1,17 @@
+FROM ubuntu
+
+RUN apt-get update \
+      && apt-get install --yes --no-install-recommends \
+      devscripts \
+      build-essential \
+      lintian \
+      fakeroot \
+      pbuilder \
+      cdbs \
+      && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir /output
+
+Add deb/ /deb
+
+ADD create_deb_amd64.sh /

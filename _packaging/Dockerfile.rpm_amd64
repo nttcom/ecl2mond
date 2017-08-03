@@ -1,0 +1,15 @@
+FROM centos
+RUN yum update -y
+RUN yum install -y rpmdevtools
+
+RUN mkdir -p /rpmbuild
+RUN mkdir -p /rpmbuild/RPMS
+RUN mkdir -p /rpmbuild/SRPMS
+RUN mkdir -p /rpmbuild/BUILDROOT
+ADD ./rpmbuild/SPECS /rpmbuild/SPECS
+ADD ./rpmbuild/SOURCES /rpmbuild/SOURCES
+ADD ./rpmbuild/BUILD /rpmbuild/BUILD
+RUN chown root:root -R /rpmbuild
+
+RUN mkdir -p /output
+ADD create_rpm_amd64.sh /

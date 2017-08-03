@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+%:
+	dh $@
+
+name={{name}}
+
+override_dh_auto_install:
+	dh_auto_install
+	install -m 755 debian/$(name).bin debian/$(name)/usr/bin/$(name)
+	install -m 644 debian/$(name).conf debian/$(name)/etc/$(name)/$(name).conf
+
+override_dh_installdocs:
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 777 debian/$(name)/var/lib/$(name)
